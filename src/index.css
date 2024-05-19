@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+  background: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+.transparent {
+  pointer-events: none;
+}
+
+.button-gradient {
+  background: linear-gradient(90deg, #5e11ff 0%, #f87516 100%);
+}
+
+.card-background {
+  background: linear-gradient(180deg, #0d061f 0%, #251e35 100%);
+  border: 2px;
+  border-style: solid;
+  border-color: #ffffff10;
+  border-radius: 20px;
+}
+.footer-background {
+  background: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+}
+
+body {
+  overflow-x: hidden;
+}
