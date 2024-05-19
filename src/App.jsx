@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="absolute pointer-events-none">
-      <div className="md:mx-4 xl:mx-20 2xl:mx-60">
+      <div className="mx-3 md:mx-5 xl:mx-20 2xl:mx-60">
         <Navbar></Navbar>
 
         {/* banner here  */}
